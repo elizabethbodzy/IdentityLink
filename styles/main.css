@@ -1,0 +1,100 @@
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.grid {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col {
+	box-sizing: border-box;
+	flex: 0 0 100%;
+}
+
+.col-half {
+	flex: 0 0 50%;
+	box-sizing: border-box;
+}
+
+.col-third {
+	flex: 0 0 33.33333%;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+}
+
+.logo {
+	width: 200px;
+	/*height: 40px;*/
+	display: inline-block;
+}
+
+.nav {
+	display: inline-block;
+	padding-right: 40px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #5C1B57;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	position: relative;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #456DB5;
+}
+
+.keywords {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.section-heading {
+	font-family: helvetica-light;
+	font-size: 28px;
+	text-align: center;
+}
+
+.section-description {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 24px;
+}
+
+.icons {
+	width: 40%;
+	/*margin-left: 115px;*/
+}
+
+.icons-small {
+	width: 30%;
+	margin-left: 125px;
+}
+
+.icons-shifted {
+	margin-top: 15px;
+	margin-left: 105px;
+	margin-bottom: 11px;
+}
+
+.icon-last {
+	margin-left: 105px;
+}
+
+.sections {
+	text-align: center;
+	font-family: helvetica-light;
+	font-size: 16px;
+}
+
+.who {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+}
