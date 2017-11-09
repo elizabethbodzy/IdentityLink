@@ -18,6 +18,7 @@ body {
 .col-half {
 	flex: 0 0 50%;
 	box-sizing: border-box;
+	/*border: 1px solid black;*/
 }
 
 .col-third {
@@ -98,3 +99,42 @@ a {
 	font-family: helvetica;
 	font-size: 20px;
 }
+
+.heading {
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px; 
+}
+
+.wrapper {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.about {
+	font-family: helvetica-light;
+	font-size: 16px;
+	line-height: 130%;
+	/*margin: 30px;*/
+}
+
+.about-img {
+	width: 160px;
+	/*height: 160px;*/
+	float: left;
+	padding-right: 30px;
+}
+
+.linkedin {
+	width: 25px;
+	margin-left: 400px;
+	padding-top: 40px;
+}
+
+.social-text {
+	padding-top: 45px;
+	font-family: helvetica-light;
+	margin-left: -80px;
+}
+
