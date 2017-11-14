@@ -19,7 +19,7 @@ body {
 	flex: 0 0 50%;
 	box-sizing: border-box;
 	/*border: 1px solid black;*/
-}
+} 
 
 .col-third {
 	flex: 0 0 33.33333%;
@@ -107,6 +107,21 @@ a {
 	margin-top: 40px; 
 }
 
+.heading-2 {
+	font-family: helvetica-light;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+
+.heading-3 {
+	font-family: helvetica-light;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 40px;
+}
+
 .wrapper {
 	margin-left: 80px;
 	margin-right: 80px;
@@ -138,3 +153,68 @@ a {
 	margin-left: -80px;
 }
 
+.services-keywords {
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 400;
+	font-size: 14px;
+
+}
+
+.services-keywords-2 {
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 400;
+	font-size: 20px;
+
+}
+
+.icon-main {
+	width: 15%;
+	margin-left: 460px;
+}
+
+.description {
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 200;f
+}
+
+.approach {
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.cost {
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+li {
+	font-family: helvetica;
+	font-weight: 200;
+	margin-left: 60px;
+}
+
+.cost-info {
+	font-family: helvetica;
+	font-weight: 200;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+}
+
+.bold {
+	font-family: helvetica;
+	font-weight: 700;
+}
+
+span {
+	font-weight: 700;
+}
