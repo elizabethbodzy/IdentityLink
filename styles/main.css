@@ -52,20 +52,23 @@ a {
 }
 
 .keywords {
-	width: 100%;
-	margin-top: 30px;
+	width: 60%;
+	/*margin-top: 30px;*/
+	margin-left: 220px;
 }
 
 .section-heading {
-	font-family: helvetica-light;
-	font-size: 28px;
+	font-family: helvetica;
+	font-weight: 400;
+	font-size: 24px;
 	text-align: center;
 }
 
 .section-description {
 	text-align: center;
 	font-family: helvetica;
-	font-size: 24px;
+	font-size: 22px;
+	margin-top: -20px;
 }
 
 .icons {
@@ -90,7 +93,8 @@ a {
 
 .sections {
 	text-align: center;
-	font-family: helvetica-light;
+	font-family: helvetica;
+	font-weight: 600;
 	font-size: 16px;
 }
 
@@ -98,11 +102,16 @@ a {
 	text-align: center;
 	font-family: helvetica;
 	font-size: 20px;
+	margin-top: -20px;
+	padding-bottom: 10px;
 }
 
 .heading {
-	font-family: 'Caveat', cursive;
-	font-size: 40px;
+	/*font-family: 'Caveat', cursive;
+	font-size: 40px;*/
+	font-family: helvetica;
+	font-weight: 400;
+	font-size: 24px;
 	text-align: center;
 	margin-top: 40px; 
 }
@@ -215,8 +224,14 @@ li {
 	font-weight: 700;
 }
 
-span {
+span1 {
 	font-weight: 700;
+	color: #203264;
+}
+
+span2 {
+	font-weight: 700;
+	color: #456DB5;
 }
 
 .testimonial {
@@ -242,6 +257,11 @@ span {
 	padding-bottom: 28px;
 }
 
+label {
+	font-family: helvetica;
+	font-weight: 200;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -254,6 +274,17 @@ input[type=text], select, textarea {
     resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+input[type=message], select, textarea {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -265,7 +296,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: helvetica;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 /* When moving the mouse over the submit button, add a darker green color 
@@ -274,13 +305,13 @@ input[type=submit]:hover {
 }*/
 
 /* Add a background color and some padding around the form */
-.container {
+/*.container {
     border-radius: 5px;
-   /* background-color: #f2f2f2;*/
+    background-color: #f2f2f2;
     padding: 20px;
     font-family: helvetica;
 	font-weight: 200;
-}
+}*/
 
 .add-padding {
 	padding-top: 40px;
