@@ -64,12 +64,9 @@ header {
 
 .keywords2 {
   width: 105%;
-
   padding-top: 40px;
   /*margin-left: 20px;*/
 }
-
-
 
 .section-heading {
   font-family: helvetica;
@@ -83,11 +80,12 @@ header {
   font-family: helvetica;
   font-size: 22px;
   margin-top: -20px;
+  padding-bottom: 35px;
 }
 
 .icons {
   width: 40%;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   /*margin-left: 115px;*/
 }
 
@@ -103,22 +101,24 @@ header {
 }
 
 .icon-last {
-  margin-left: 105px;
+  margin-left: 110px;
 }
 
 .sections {
   text-align: center;
   font-family: helvetica;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
+  padding-bottom: 20px;
 }
 
 .who {
   text-align: center;
   font-family: helvetica;
+  font-weight: 300;
   font-size: 20px;
   margin-top: -20px;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 .heading {
@@ -129,22 +129,23 @@ header {
   font-size: 24px;
   text-align: center;
   margin-top: 40px; 
+  color: #203264;
 }
 
-.heading-2 {
+/*.heading-2 {
   font-family: helvetica-light;
   font-size: 20px;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
-}
+}*/
 
-.heading-3 {
+/*.heading-3 {
   font-family: helvetica-light;
   font-size: 20px;
   text-align: center;
   padding-top: 40px;
-}
+}*/
 
 .wrapper {
   margin-left: 80px;
@@ -167,14 +168,14 @@ header {
 
 .linkedin {
   width: 25px;
-  margin-left: 400px;
+  margin-left: 410px;
   padding-top: 40px;
 }
 
 .social-text {
   padding-top: 45px;
   font-family: helvetica-light;
-  margin-left: -80px;
+  margin-left: -90px;
 }
 
 .services-keywords {
@@ -195,7 +196,12 @@ header {
 
 .icon-main {
   width: 15%;
-  margin-left: 460px;
+  /*margin-left: 440px;*/
+}
+
+.icon-resume {
+  width: 12%;
+  margin-left: 12px;
 }
 
 .description {
@@ -314,8 +320,6 @@ input[type=submit] {
   font-weight: 400;
 }
 
-
-
 .add-padding {
   padding-top: 40px;
 }
@@ -331,12 +335,33 @@ input[type=submit] {
   font-weight: 200;
   padding-bottom: 20px;
 }
+
 .add-padding-2 {
   padding-top: 40px;
 }
+
 .inquiries {
   text-align: center;
   font-family: helvetica;
   font-weight: 200;
   padding-bottom: 7px;
+}
+
+.fa {
+  font-size: 40px;
+  color: #203264;
+
+}
+
+.fa-angle-left {
+  padding-right: 280px;
+
+}
+
+.fa-angle-right {
+  padding-left: 250px;
+}
+
+.arrows {
+  margin-left: 160px;
 }
